@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "396232808874",
+    "project_id": "daily-vegan",
+    "storage_bucket": "daily-vegan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396232808874:android:6c83c40d2f99ef244033d3",
+        "android_client_info": {
+          "package_name": "com.example.daily_vegan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396232808874-bu3mu8ku3h68f96sncphi0qruir5vee4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daily_vegan",
+            "certificate_hash": "5b88e76bc28a6f6e835bb2211ff2011693b81a57"
+          }
+        },
+        {
+          "client_id": "396232808874-tpjf6lmsjq3gdr0hkhgoa09hkqisi889.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANI3MCBRmKqgQQFAsGIFF8G8cNVe0a0sI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396232808874-tpjf6lmsjq3gdr0hkhgoa09hkqisi889.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
