@@ -8,6 +8,8 @@ import 'package:daily_vegan/screens/sign_in_screen.dart';
 import 'package:intl/intl.dart';
 import 'package:daily_vegan/screens/sample_cal.dart';
 import 'package:daily_vegan/screens/profile_screen.dart';
+import 'package:daily_vegan/screens/sample_main.dart';
+
 //
 // class MainScreen extends StatefulWidget {
 
@@ -68,10 +70,7 @@ class _MainScreenState extends State<MainScreen> {
       color: Colors.black);
   // Datatime 때문에 List 앞에 const 삭제함
   static List<Widget> _widgetOptions = <Widget>[
-    Text(
-      DateFormat("yyyy.MM.dd").format(DateTime.now()),
-      style: optionStyle,
-    ),
+    Scaffold(body: SampleMain()),
     Text(
       'Index 1',
       style: optionStyle,
